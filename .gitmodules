@@ -1,0 +1,3 @@
+[submodule "lbr"]
+	path = lbr
+	url = https://github.com/Rebelstack/eagle_lbr
