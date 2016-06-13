@@ -5850,7 +5850,10 @@ Attribution-ShareAlike 4.0 International License</text>
 <connect gate="G$1" pin="2" pad="GND"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DISTRIBUTOR" value="Digi-key" constant="no"/>
+<attribute name="DISTRIBUTOR_PN" value="36-1294-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5870,7 +5873,10 @@ Attribution-ShareAlike 4.0 International License</text>
 <connect gate="G$1" pin="VOUT" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DISTRIBUTOR" value="Digi-key" constant="no"/>
+<attribute name="DISTRIBUTOR_PN" value="296-20717-1-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5914,7 +5920,10 @@ Attribution-ShareAlike 4.0 International License</text>
 <connect gate="G$1" pin="VSS" pad="7"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DISTRIBUTOR" value="Digi-key" constant="no"/>
+<attribute name="DISTRIBUTOR_PN" value="MMA2240KEG-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5933,7 +5942,10 @@ Attribution-ShareAlike 4.0 International License</text>
 <connect gate="G$1" pin="~-" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DISTRIBUTOR" value="Digi-key" constant="no"/>
+<attribute name="DISTRIBUTOR_PN" value="BAS4002ARPPE6327INCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5954,7 +5966,10 @@ Attribution-ShareAlike 4.0 International License</text>
 <connect gate="G$1" pin="V+" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DISTRIBUTOR" value="Digi-key" constant="no"/>
+<attribute name="DISTRIBUTOR_PN" value="LTC6992CS6-1#TRMPBFCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5972,7 +5987,10 @@ Attribution-ShareAlike 4.0 International License</text>
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DISTRIBUTOR" value="Digi-key" constant="no"/>
+<attribute name="DISTRIBUTOR_PN" value="IRLML2502PBFCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5989,7 +6007,10 @@ Attribution-ShareAlike 4.0 International License</text>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DISTRIBUTOR" value="Digi-key" constant="no"/>
+<attribute name="DISTRIBUTOR_PN" value="609-3936-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -18201,41 +18222,89 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device="" value="Rebelstack"/>
 <part name="J1" library="rebelStack" deviceset="9V-1294-2PIN" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-US" device="D/7343-31W" value="220u"/>
-<part name="C2" library="rcl" deviceset="C-US" device="C0805" value="0.1u"/>
+<part name="C1" library="rcl" deviceset="CPOL-US" device="D/7343-31W" value="220u">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="399-10429-1-ND"/>
+</part>
+<part name="C2" library="rcl" deviceset="C-US" device="C0805" value="0.1u">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="1276-1007-1-ND"/>
+</part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="rebelStack" deviceset="LP2985-50DBVR:SOT-23-5" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0805" value="1u"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C0805" value="1u">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="1276-1066-1-ND"/>
+</part>
 <part name="U$1" library="rebelStack" deviceset="VBATT" device=""/>
-<part name="C4" library="rcl" deviceset="C-US" device="C0805" value="10n"/>
+<part name="C4" library="rcl" deviceset="C-US" device="C0805" value="10n">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="311-1136-1-ND"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="C-US" device="C0805" value="2.2u"/>
+<part name="C5" library="rcl" deviceset="C-US" device="C0805" value="2.2u">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="445-1420-1-ND"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="U$2" library="rebelStack" deviceset="VBATT" device=""/>
 <part name="U2" library="rebelStack" deviceset="MMA2240KEG:SOIC-16W" device=""/>
-<part name="C6" library="rcl" deviceset="C-US" device="C0805" value="0.1u"/>
+<part name="C6" library="rcl" deviceset="C-US" device="C0805" value="0.1u">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="1276-1007-1-ND"/>
+</part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="M0805" value="1k"/>
-<part name="C7" library="rcl" deviceset="C-US" device="C0805" value="10n"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="M0805" value="1k">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="311-1.0KARCT-ND"/>
+</part>
+<part name="C7" library="rcl" deviceset="C-US" device="C0805" value="10n">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="311-1136-1-ND"/>
+</part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0805" value="0.1u"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0805" value="0.1u">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="1276-1007-1-ND"/>
+</part>
 <part name="U3" library="rebelStack" deviceset="BAS4002A-RPP:SOT-143" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-US" device="C0805" value="0.1u"/>
+<part name="C9" library="rcl" deviceset="C-US" device="C0805" value="0.1u">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="1276-1007-1-ND"/>
+</part>
 <part name="U4" library="rebelStack" deviceset="LTC6992CS6-1:SOT-23-6" device=""/>
-<part name="R2" library="rcl" deviceset="R-US_" device="M0805" value="1M"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="M0805" value="100k"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="M0805" value="680"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="M0805" value="1k"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="M0805" value="1M">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="311-1.00MCRCT-ND"/>
+</part>
+<part name="R3" library="rcl" deviceset="R-US_" device="M0805" value="100k">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="311-100KCRCT-ND"/>
+</part>
+<part name="R4" library="rcl" deviceset="R-US_" device="M0805" value="680">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="311-680ARCT-ND"/>
+</part>
+<part name="R5" library="rcl" deviceset="R-US_" device="M0805" value="1k">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="311-1.0KARCT-ND"/>
+</part>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="C10" library="rcl" deviceset="C-US" device="C0805" value="0.1u"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0805" value="0.1u">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="1276-1007-1-ND"/>
+</part>
 <part name="M1" library="rebelStack" deviceset="IRLML2502TRPBF:SOT-23-3" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R2512" value="10"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R2512" value="10">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DISTRIBUTOR_PN" value="CPA25Q10.0CT-ND"/>
+</part>
 <part name="U$3" library="rebelStack" deviceset="VBATT" device=""/>
 <part name="J2" library="rebelStack" deviceset="20020316-H021B01LF:TERM_BLOCK-2" device=""/>
 <part name="U$5" library="rebelStack" deviceset="OSHW-LOGO-PCB" device=""/>
@@ -18251,41 +18320,89 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
 <instance part="J1" gate="G$1" x="45.72" y="172.72"/>
-<instance part="C1" gate="G$1" x="66.04" y="167.64"/>
-<instance part="C2" gate="G$1" x="78.74" y="167.64"/>
+<instance part="C1" gate="G$1" x="66.04" y="167.64">
+<attribute name="DISTRIBUTOR" x="66.04" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="66.04" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="78.74" y="167.64">
+<attribute name="DISTRIBUTOR" x="78.74" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="78.74" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND2" gate="1" x="78.74" y="154.94"/>
 <instance part="U1" gate="G$1" x="121.92" y="167.64"/>
 <instance part="GND1" gate="1" x="99.06" y="154.94"/>
-<instance part="C3" gate="G$1" x="99.06" y="167.64"/>
+<instance part="C3" gate="G$1" x="99.06" y="167.64">
+<attribute name="DISTRIBUTOR" x="99.06" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="99.06" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$1" gate="G$1" x="99.06" y="177.8"/>
-<instance part="C4" gate="G$1" x="137.16" y="157.48"/>
+<instance part="C4" gate="G$1" x="137.16" y="157.48">
+<attribute name="DISTRIBUTOR" x="137.16" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="137.16" y="157.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="137.16" y="147.32"/>
-<instance part="C5" gate="G$1" x="144.78" y="167.64"/>
+<instance part="C5" gate="G$1" x="144.78" y="167.64">
+<attribute name="DISTRIBUTOR" x="144.78" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="144.78" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="144.78" y="147.32"/>
 <instance part="P+1" gate="1" x="144.78" y="180.34"/>
 <instance part="U$2" gate="G$1" x="78.74" y="177.8"/>
 <instance part="U2" gate="G$1" x="63.5" y="111.76"/>
-<instance part="C6" gate="G$1" x="35.56" y="96.52"/>
+<instance part="C6" gate="G$1" x="35.56" y="96.52">
+<attribute name="DISTRIBUTOR" x="35.56" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="35.56" y="96.52" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="35.56" y="83.82"/>
 <instance part="P+2" gate="1" x="35.56" y="106.68"/>
-<instance part="R1" gate="G$1" x="96.52" y="127"/>
-<instance part="C7" gate="G$1" x="106.68" y="121.92"/>
+<instance part="R1" gate="G$1" x="96.52" y="127">
+<attribute name="DISTRIBUTOR" x="96.52" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="96.52" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="106.68" y="121.92">
+<attribute name="DISTRIBUTOR" x="106.68" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="106.68" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND6" gate="1" x="106.68" y="111.76"/>
-<instance part="C8" gate="G$1" x="114.3" y="127" rot="R90"/>
+<instance part="C8" gate="G$1" x="114.3" y="127" rot="R90">
+<attribute name="DISTRIBUTOR" x="114.3" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="114.3" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="U3" gate="G$1" x="137.16" y="124.46"/>
 <instance part="GND7" gate="1" x="124.46" y="111.76"/>
 <instance part="GND8" gate="1" x="152.4" y="101.6"/>
-<instance part="C9" gate="G$1" x="162.56" y="121.92"/>
+<instance part="C9" gate="G$1" x="162.56" y="121.92">
+<attribute name="DISTRIBUTOR" x="162.56" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="162.56" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U4" gate="G$1" x="203.2" y="124.46"/>
-<instance part="R2" gate="G$1" x="175.26" y="119.38" rot="R90"/>
-<instance part="R3" gate="G$1" x="187.96" y="114.3" rot="R90"/>
-<instance part="R4" gate="G$1" x="236.22" y="114.3" rot="R90"/>
-<instance part="R5" gate="G$1" x="236.22" y="129.54" rot="R90"/>
+<instance part="R2" gate="G$1" x="175.26" y="119.38" rot="R90">
+<attribute name="DISTRIBUTOR" x="175.26" y="119.38" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="175.26" y="119.38" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="187.96" y="114.3" rot="R90">
+<attribute name="DISTRIBUTOR" x="187.96" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="187.96" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="236.22" y="114.3" rot="R90">
+<attribute name="DISTRIBUTOR" x="236.22" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="236.22" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="236.22" y="129.54" rot="R90">
+<attribute name="DISTRIBUTOR" x="236.22" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="236.22" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="P+3" gate="1" x="236.22" y="142.24"/>
-<instance part="C10" gate="G$1" x="226.06" y="114.3"/>
+<instance part="C10" gate="G$1" x="226.06" y="114.3">
+<attribute name="DISTRIBUTOR" x="226.06" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="226.06" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="M1" gate="G$1" x="99.06" y="53.34"/>
 <instance part="GND9" gate="1" x="99.06" y="40.64"/>
-<instance part="R6" gate="G$1" x="99.06" y="78.74" rot="R90"/>
+<instance part="R6" gate="G$1" x="99.06" y="78.74" rot="R90">
+<attribute name="DISTRIBUTOR" x="99.06" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PN" x="99.06" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="U$3" gate="G$1" x="99.06" y="86.36"/>
 <instance part="J2" gate="G$1" x="88.9" y="68.58"/>
 <instance part="U$5" gate="G$1" x="45.72" y="10.16"/>
