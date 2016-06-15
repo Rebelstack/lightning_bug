@@ -11,7 +11,7 @@ parallel connected LEDs.
 -It is somewhat difficult to insert and remove battery with the battery clip specified.
 
 -R1 and C7 form a low pass recommended by the accelerometer, but may not be necessary 
-for this application.  Replace R1 with a 0 Ohm short to remove.
+for this application.  Replace R1 with a 0 Ohm short and do not populate C7 to remove.
 
 -Standard 4-40 screws/nuts can be used to affix the battery clip to the PCB, but two
 of the four mounting holes have components close which may interfere.
