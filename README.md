@@ -2,6 +2,7 @@
 EAGLE hardware design and production files for Lightning Bug
 # Product Description
 ![alt tag](https://github.com/Rebelstack/lightning_bug/blob/master/lightning_bug.png)
+<br />
 Lightning Bug is an acceleration-activated PWM current supply.  Inspired by flying trapeze, 
 it is designed to be worn on the body and and connected to a strip of LEDs.  The LEDs are lit
 with an intensity that varies with acceleration.  Powered with a standard 9V battery,
